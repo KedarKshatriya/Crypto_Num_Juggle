@@ -90,10 +90,10 @@
     </p>
   </div>
   <script> 
-const portis = new Portis('169229c9-bfb8-4caf-adb2-8494887b8b7d', "maticMumbai");
-      const web3 = new Web3(portis.provider);
 
-     // portis.showPortis();
+const portis = new Portis('169229c9-bfb8-4caf-adb2-8494887b8b7d', "maticMumbai");
+const web3 = new Web3(portis.provider);
+// portis.showPortis();
 
 $('#logop').on('click', function () {  
         $("#logop").toggleClass('flip-full');
@@ -111,13 +111,11 @@ $('#logop').on('click', function () {
   }
 });
 });
-/*  
- portis.onActiveWalletChanged(walletAddress => {
-      console.log('Active wallet address:', walletAddress);
-    });
-*/
+
 
 //logout function
+
+
 $('#logb').on('click', function () {  
         portis.logout(); 
         portis.onLogout(() => {
