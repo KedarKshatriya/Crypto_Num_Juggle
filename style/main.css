@@ -783,8 +783,9 @@ hr {
     display: inline-block;
     background: #4492d1;
     border-radius: 10px;
-    margin-right: 120px;
-    padding: 0 15px;
+    margin-right: 35px;
+    margin-top: 5px;
+    padding: 0 10px;
     text-decoration: none;
     color: #f9f6f2;
     height: 30px;
